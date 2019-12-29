@@ -60,9 +60,10 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/textview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Photo"
+                    android:text="@string/photo"
                     android:textSize="20sp" />
 
                 <TextView
@@ -87,9 +88,10 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/textview1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Followers"
+                    android:text="@string/followers"
                     android:textSize="20sp" />
 
                 <TextView
@@ -116,9 +118,10 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/textview2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Following"
+                    android:text="@string/following"
                     android:textSize="20sp" />
 
                 <TextView
@@ -197,11 +200,12 @@
                 android:src="@drawable/ic_group_add_black_24dp" />
 
             <TextView
+                android:id="@+id/textview3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:text="Social Life" />
+                android:text="@string/sociallife" />
         </LinearLayout>
 
         <LinearLayout
@@ -217,11 +221,12 @@
                 android:src="@drawable/ic_forum_black_24dp" />
 
             <TextView
+                android:id="@+id/textview4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:text="Send Message To Number In My Profile" />
+                android:text="@string/send" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -280,13 +285,14 @@
                 android:orientation="vertical">
 
                 <Button
+                    android:id="@+id/button"
                     android:layout_width="152dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="25dp"
                     android:layout_marginBottom="25dp"
                     android:background="@drawable/buttonstyle"
-                    android:text="Let's Start" />
+                    android:text="@string/start" />
 
 
             </LinearLayout>
